@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    height: 100vh;
+    background: url(https://wallpapers.com/images/hd/pure-black-background-py9pa0f1mlsscm9s.jpg);
+    background-attachment: fixed;
+    color: rgba(91, 154, 248, 0.742);
+    font-size: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav>ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(91, 154, 248, 0.742);
+}
+a:hover{
+    color: rgb(31, 18, 217);
+    text-decoration: none;
+    border-radius: 50%;
+}
+#banner{
+    display: flex;
+    justify-content: space-between;
+   width: 100%;
+}
+.left{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+.badge{
+  padding: 10px;
+  background-color: var(--primaryColor);
+  color: white;
+  border-radius: 20px;
+  width: max-content;
+}
+#banner>.right>img{
+    width: 550px;
+    height: 500px;
+    
+}
+section{
+    padding: 50px 0px;
+}
+button>a:hover{
+    color: white;
+}
+.left>h2{
+    font-size: 68px;
+    
+}
+.left>h2>span{
+    color: var(--primaryColor);
+}
+.left>p{
+    font-size: 24px;
+}
+.balaji{
+    
+}
