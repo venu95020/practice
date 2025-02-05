@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/104/501/desktop-wallpaper-login-backgrounds-1-login.jpg);
+     background-repeat: no-repeat;
+     background-attachment:fixed;
+     background-size: cover;
+    
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  input{
+    width: 50vw;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  textarea{
+   width: 50vw;
+    height: 100px; 
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  textarea::placeholder,input::placeholder{
+    padding: 20px;
+  }
+  form>button{
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+  }
+  .header{
+    text-align: center;
+    font-size:50px;
+    color:white; 
+  }
+ form>button:hover {
+    background-color:rgba(17, 17, 220, 0.792);
+    border-radius: 50%;
+    color:black
+ }

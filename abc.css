@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+ body{
+    height: 100vh;
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/104/501/desktop-wallpaper-login-backgrounds-1-login.jpg);
+     background-repeat: no-repeat;
+     background-attachment:fixed;
+     background-size: cover;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+#skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    row-gap: 40px;
+ }
+ #skills>img{
+    height: 100px;
+    
+}
+ .header{
+    text-align: center;
+    font-size:50px;
+    color:white;
+ }
+ 
+#skills>img:hover{
+    height:150px;
+}
